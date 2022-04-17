@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAI_06-VentaRepuestos.Consola", "CAI_06-VentaRepuestos.Consola\CAI_06-VentaRepuestos.Consola.csproj", "{4CFE19AD-6062-4D87-BB8D-147D61BBAACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAI_06-VentaRepuestos.Dominio", "CAI_06-VentaRepuestos.Dominio\CAI_06-VentaRepuestos.Dominio.csproj", "{BF98A33F-8FD4-4703-B3B0-A25808B304C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFE19AD-6062-4D87-BB8D-147D61BBAACA}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{4CFE19AD-6062-4D87-BB8D-147D61BBAACA}.Debug|anycpu.Build.0 = Debug|anycpu
+		{4CFE19AD-6062-4D87-BB8D-147D61BBAACA}.Release|anycpu.ActiveCfg = Release|anycpu
+		{4CFE19AD-6062-4D87-BB8D-147D61BBAACA}.Release|anycpu.Build.0 = Release|anycpu
+		{BF98A33F-8FD4-4703-B3B0-A25808B304C7}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{BF98A33F-8FD4-4703-B3B0-A25808B304C7}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{BF98A33F-8FD4-4703-B3B0-A25808B304C7}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{BF98A33F-8FD4-4703-B3B0-A25808B304C7}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A511CEBE-5D9E-43EE-8534-0A9777E907C1}
+	EndGlobalSection
+EndGlobal
