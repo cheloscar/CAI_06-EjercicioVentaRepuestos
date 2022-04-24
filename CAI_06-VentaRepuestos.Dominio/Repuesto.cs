@@ -62,12 +62,12 @@ namespace CAI_06VentaRepuestos.Dominio
         public void AumentarStock(uint cantidad) { _stock += cantidad; }
         public void DisminuirStock(uint cantidad)
         {
-            if ((_stock - cantidad) < 0) { throw new ImposibleQuitarEstaCantidadExcepcion; }
+            if ((_stock - cantidad) < 0) { throw new ImposibleQuitarEstaCantidadExcepcion(); }
             else { _stock -= cantidad; }
         }
         private bool ValidarCategoria(string categoria)
         {
-            if (Enum.IsDefined(typeof(Categoria), categoria))
+            if (Enum.IsDefined(typeof(CategoriaEnum), categoria))
             {
                 return true;
             }

@@ -66,7 +66,7 @@ namespace CAI_06VentaRepuestos.Dominio
             List<Repuesto> _tempProductos = new List<Repuesto>();
             foreach(Repuesto repuesto in _listaProductos)
             {
-                if (repuesto.Categoria() == Enum.GetName(typeof(Categoria), categoria))
+                if (repuesto.Categoria() == Enum.GetName(typeof(CategoriaEnum), categoria))
                 {
                     _coincidencias = true;
                     _tempProductos.Add(repuesto);

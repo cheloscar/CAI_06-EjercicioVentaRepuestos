@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -30,19 +30,19 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaClass.cs" />
     <Compile Include="Repuesto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Excepciones\ImposibleEliminarRepuestoExcepcion.cs" />
     <Compile Include="Excepciones\ImposibleQuitarEstaCantidadExcepcion.cs" />
     <Compile Include="Excepciones\ElValorNoPuedeSerNegativoExcepcion.cs" />
     <Compile Include="VentaRepuestos.cs" />
-    <Compile Include="Categoria.cs" />
+    <Compile Include="CategoriaEnum.cs" />
     <Compile Include="Excepciones\CategoriaInexistenteExcepcion.cs" />
     <Compile Include="Excepciones\ElCodigoNoExisteExcepcion.cs" />
     <Compile Include="Excepciones\NoHuboCoincidenciasExcepcion.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Excepciones\" />
     <Folder Include="Complementos\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

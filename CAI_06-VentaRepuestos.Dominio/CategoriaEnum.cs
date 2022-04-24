@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CAI_06VentaRepuestos.Dominio
 {
-    public enum Categoria
+    public enum CategoriaEnum
     {
         CATEGORIA1 = 1000,
             CAT1SUB1 = 1100,
